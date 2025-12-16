@@ -4,8 +4,6 @@ interface DashboardWebsocketOptions {
     reconnectMs?: number;
 }
 
-type Status = 'connecting' | 'open' | 'closed' | 'error'
-
 export function createDashboardWs({ url, autoReconnect, reconnectMs }: DashboardWebsocketOptions) {
     let ws: WebSocket | null = null
     let timer: number | null = null

@@ -1,0 +1,45 @@
+.table {
+    display: grid;
+    gap: 0.4rem;
+}
+
+.table__head,
+.table__row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1.2fr;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    border-radius: 0.8rem;
+}
+
+.table__head {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.6);
+}
+
+.table__row {
+    background: rgba(255,255,255,0.04);
+    border: 0.1rem solid rgba(255,255,255,0.06);
+    transition: background 120ms ease;
+}
+
+.table__row:hover {
+    background: rgba(255,255,255,0.07);
+}
+
+.score {
+    font-weight: 600;
+}
+
+.new {
+    font-weight: 700;
+}
+
+.up {
+    color: var(--green);
+}
+
+.down {
+    color: var(--red);
+}

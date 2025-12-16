@@ -7,5 +7,3 @@ import MetaLayout from "@/layouts/meta-layout.vue";
     <router-view />
   </MetaLayout>
 </template>
-
-<style scoped></style>

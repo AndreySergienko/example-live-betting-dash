@@ -1,4 +1,4 @@
-export interface DashboardModel {
+export interface MatchesEntity {
     id: number
     teamA: string;
     teamB: string;
