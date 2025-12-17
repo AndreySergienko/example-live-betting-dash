@@ -9,3 +9,9 @@ export type RequestOptions = Omit<RequestInit, 'body'> & {
 }
 
 export type ApiClient = <T>(url: string, options?: RequestOptions) => Promise<T>
+
+export interface WebsocketOptions {
+    url: string;
+    autoReconnect?: boolean;
+    reconnectMs?: number;
+}

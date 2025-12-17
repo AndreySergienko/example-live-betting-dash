@@ -1,0 +1,11 @@
+.match-controller {
+    display: grid;
+    gap: 1.2rem;
+}
+
+.card--empty {
+    padding: 1.2rem 1.4rem;
+    border-radius: 1.2rem;
+    border: 0.1rem dashed rgba(255, 255, 255, 0.2);
+    opacity: 0.85;
+}

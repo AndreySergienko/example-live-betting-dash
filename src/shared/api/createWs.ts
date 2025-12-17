@@ -1,10 +1,6 @@
-interface DashboardWebsocketOptions {
-    url: string;
-    autoReconnect?: boolean;
-    reconnectMs?: number;
-}
+import type {WebsocketOptions} from "@/shared/api/types";
 
-export function createDashboardWs({ url, autoReconnect, reconnectMs }: DashboardWebsocketOptions) {
+export function createWs({ url, autoReconnect, reconnectMs }: WebsocketOptions) {
     let ws: WebSocket | null = null
     let timer: number | null = null
     let shouldReconnect = autoReconnect ?? true

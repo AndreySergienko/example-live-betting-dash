@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import DashboardController from "@features/matches/store/controller/DashboardController.vue";
+import ListMatchesController from "@features/matches/ui/controller/ListMatchesController/ListMatchesController.vue";
 </script>
 
 <template>
-  <DashboardController />
+  <ListMatchesController />
 </template>

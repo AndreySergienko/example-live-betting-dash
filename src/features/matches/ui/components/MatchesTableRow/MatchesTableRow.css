@@ -1,0 +1,44 @@
+.row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2.1fr;
+    align-items: center;
+
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 0.1rem solid rgba(255, 255, 255, 0.08);
+
+    transition: background 120ms ease, transform 120ms ease, border-color 120ms ease;
+}
+
+.row:hover {
+    background: rgba(255, 255, 255, 0.07);
+    border-color: rgba(255, 255, 255, 0.12);
+    transform: translateY(-0.1rem);
+}
+
+.cell {
+    min-width: 0;
+}
+
+.cell--right {
+    text-align: right;
+}
+
+.cell--center {
+    text-align: center;
+}
+
+.team {
+    display: block;
+    color: rgba(255, 255, 255, 0.92);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.score {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+}

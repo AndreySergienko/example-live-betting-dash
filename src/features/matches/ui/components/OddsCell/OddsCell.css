@@ -1,0 +1,33 @@
+.odds {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.8rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.odds__chip {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    min-width: 7rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.8rem;
+
+    border: 0.1rem solid rgba(255, 255, 255, 0.10);
+    background: white;
+}
+
+.odds__chip--up { color: var(--green, #22c55e); }
+.odds__chip--down { color: var(--red, #ef4444); }
+
+.odds__delta {
+    min-width: 5.5rem;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+}
+
+.odds__delta--up { color: var(--green, #22c55e); }
+.odds__delta--down { color: var(--red, #ef4444); }

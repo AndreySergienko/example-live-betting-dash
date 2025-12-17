@@ -1,3 +1,3 @@
 <template>
-  DasboardDetail
+
 </template>

@@ -1,0 +1,26 @@
+.card {
+    padding: 1.4rem 1.6rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.12);
+}
+
+.teams {
+    display: grid;
+    gap: 0.4rem;
+}
+
+.team {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.vs {
+    opacity: 0.6;
+}
+
+.score {
+    margin-top: 1rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+}

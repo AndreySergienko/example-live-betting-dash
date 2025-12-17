@@ -1,0 +1,55 @@
+.card {
+    padding: 1.4rem 1.6rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.12);
+}
+
+.row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+.label {
+    opacity: 0.7;
+}
+
+.value {
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-variant-numeric: tabular-nums;
+}
+
+.value--up { color: var(--green, #22c55e); }
+.value--down { color: var(--red, #ef4444); }
+
+.delta {
+    margin-top: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.9;
+}
+
+.delta--up { color: var(--green, #22c55e); }
+.delta--down { color: var(--red, #ef4444); }
+
+.meta {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    opacity: 0.75;
+}
+
+.badge {
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid rgba(255,255,255,0.16);
+    font-size: 1.2rem;
+}
+
+.trend {
+    font-size: 1.2rem;
+}

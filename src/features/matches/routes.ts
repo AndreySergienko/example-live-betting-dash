@@ -12,7 +12,7 @@ export const matchesRoutes: RouteRecordRaw[] = [
     },
     {
         path: '/:id',
-        name: 'detail',
+        name: 'match-detail',
         component: () => import('@features/matches/ui/pages/matches-detail.vue'),
         meta: {
             layout: 'default'
