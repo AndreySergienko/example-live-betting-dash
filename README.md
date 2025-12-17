@@ -1,6 +1,7 @@
 # live-betting-dash
 
-This template should help get you started developing with Vue 3 in Vite.
+Для коррректной работы проекта, необходимо так-же развернуть локально бекенд. 
+Репозиторий https://github.com/AndreySergienko/example-live-betting-dash-backend
 
 ## Recommended IDE Setup
 

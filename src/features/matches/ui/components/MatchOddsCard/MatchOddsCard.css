@@ -2,6 +2,7 @@
     padding: 1.4rem 1.6rem;
     border-radius: 1.2rem;
     border: 0.1rem solid rgba(255, 255, 255, 0.12);
+    color: white;
 }
 
 .row {
@@ -36,7 +37,7 @@
 .delta--down { color: var(--red, #ef4444); }
 
 .meta {
-    margin-top: 1.2rem;
+    margin-top: 1.4rem;
     display: flex;
     gap: 0.8rem;
     align-items: center;
@@ -47,9 +48,9 @@
     padding: 0.2rem 0.6rem;
     border-radius: 0.8rem;
     border: 0.1rem solid rgba(255,255,255,0.16);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .trend {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
